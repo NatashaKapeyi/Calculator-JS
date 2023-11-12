@@ -41,6 +41,7 @@
         border-style: none;
         border-color: beige;
         margin-top: 8px;
+        pointer-events: none;
     }
 
     .buttons{
@@ -62,3 +63,14 @@
         cursor: pointer;
       
     }
+
+    .buttons button:active{
+        transform: scale(0.8);
+    
+    }
+
+    button.operator {
+        background-color: bisque;
+     }
+
+   
