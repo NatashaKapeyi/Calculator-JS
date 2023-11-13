@@ -8,6 +8,8 @@ const calculate = (btnValue) => {
         sum= eval(sum.replace( "%", "/100"));
     } else if  (btnValue === "CE"){
         sum= sum.slice(0, -1)
+    } else if  (btnValue === "DEL"){
+        sum= ""
     } else {
         if (sum ==="" && operators.includes(btnValue)) return; 
         sum +=btnValue;
